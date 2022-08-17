@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl_nix_OpenAIGPT3-Tkinter-ChatBot"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dotenv = "^0.20.0"
+openai = "^0.22.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
